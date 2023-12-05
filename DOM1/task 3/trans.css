@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form div {
+  display: flex;
+  gap: 20px;
+}
+input {
+  outline: none;
+}

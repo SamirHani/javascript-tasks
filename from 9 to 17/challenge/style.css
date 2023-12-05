@@ -1,0 +1,27 @@
+ 
+ * {
+  box-sizing: border-box;
+}
+body {
+  background-color: #202023;
+}
+.card {
+  background-color: black;
+  border-radius: 10px;
+  display: inline-block;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .card {
+    width: 25vw;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+  }
+}

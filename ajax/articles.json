@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author": "John Doe",
+    "body": "body one",
+    "title": "title one",
+    "category": "category one"
+  },
+  {
+    "id": 2,
+    "author": "samir hani",
+    "body": "body two",
+    "title": "title two",
+    "category": "category two"
+  },
+  {
+    "id": 3,
+    "author": "abdo hani",
+    "body": "body three",
+    "title": "title three",
+    "category": "category three"
+  },
+  {
+    "id": 4,
+    "author": "mohammed ahmed",
+    "body": "body four",
+    "title": "title four",
+    "category": "category four"
+  },
+  {
+    "id": 5,
+    "author": "moamen ahmed",
+    "body": "body five",
+    "title": "title five",
+    "category": "category five"
+  }
+]

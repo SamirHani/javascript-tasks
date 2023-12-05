@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn JavaScript</title>
+  <script>
+    // code one
+    document.getElementById("el").style.color = "red";
+  </script>
+    <script>
+      // code two
+      window.onload = function () {
+      document.getElementById("el").style.color = "red";
+      }
+    </script>
+</head>
+<body>
+  <h1 id="el">Page Title</h1>
+  <script>
+    // code Three
+    document.getElementById("el").style.color = "red";
+
+    /* the code one will not work because the vsc did see the h1 yet, so we will get error
+      the code two will work because the vsc will wait until the page beeing loaded then will select the element
+      the code three will work because it's after the element so we don't have any proplem with it
+    */
+  
+  </script>
+</body>
+</html>
